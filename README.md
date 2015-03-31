@@ -16,6 +16,6 @@ Cordova based Mobile App for Chinese Radio Seattle
 >zipalign -v 4 in.apk out.apk
 ```
 
-Note: genkey is only required once. You can find zipalign from ADT, for example, ```c:\ADT\adt-bundle-windows-x86_64-20131030\sdk\build-tools\android-4.4W\zipalign```
+Note: ```keytool -genkey``` is only required once. You can find zipalign from ADT, for example, ```c:\ADT\adt-bundle-windows-x86_64-20131030\sdk\build-tools\android-4.4W\zipalign```
 
 
