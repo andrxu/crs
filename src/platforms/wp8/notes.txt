@@ -1,0 +1,14 @@
+Quirks:
+
+fontawesome: 
+
+http://stackoverflow.com/questions/14558331/getting-a-web-font-to-work-on-an-html5-windows-phone-app/20573678#20573678
+
+Within Visual Studio make sure that the font's Properties>Advanced>Build Action is set to "Content" so it is copied to the device when the project is built and deployed.
+Make sure that the font you are using is licensed for embedding and that the embeddable flag in the truetype font is set to 0 to allow embedding. iOS and Android ignore this embeddable tag but IE10 respects it.
+You can inspect the embeddable flag of any truetype font using the open-source TTFEdit. You can make a font embeddable by changing the value in View>Show>Advanced>Legal rights for embedding to 0 and re-saving it. Only change the flag if the font is licensed for embedding.
+
+I've tested with a number of truetype fonts with no problem. My only issue so far has been when including the font-awesome library where the src: values in font-awesome.min.css needed changing to fix a bug in IE10 mobile. When using font-awesome,
+
+src:url('../fonts/fontawesome-webfont.ttf?v=4.0.3') won't work. src:url('../fonts/fontawesome-webfont.ttf') will.
+

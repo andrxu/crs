@@ -1,0 +1,8 @@
+F:\Radio\ChineseRadioSeattle\platforms\wp8\AudioPlaybackAgent\Bin\Debug\AudioPlaybackAgent.dll
+F:\Radio\ChineseRadioSeattle\platforms\wp8\AudioPlaybackAgent\Bin\Debug\AudioPlaybackAgent.pdb
+F:\Radio\ChineseRadioSeattle\platforms\wp8\AudioPlaybackAgent\obj\Debug\AudioPlaybackAgent.dll
+F:\Radio\ChineseRadioSeattle\platforms\wp8\AudioPlaybackAgent\obj\Debug\AudioPlaybackAgent.pdb
+F:\GitHub\crs\crs\src\platforms\wp8\AudioPlaybackAgent\Bin\Debug\AudioPlaybackAgent.dll
+F:\GitHub\crs\crs\src\platforms\wp8\AudioPlaybackAgent\Bin\Debug\AudioPlaybackAgent.pdb
+F:\GitHub\crs\crs\src\platforms\wp8\AudioPlaybackAgent\obj\Debug\AudioPlaybackAgent.dll
+F:\GitHub\crs\crs\src\platforms\wp8\AudioPlaybackAgent\obj\Debug\AudioPlaybackAgent.pdb

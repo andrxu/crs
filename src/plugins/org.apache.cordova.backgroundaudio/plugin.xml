@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="org.apache.cordova.backgroundaudio"
+        version="1.0.0">
+
+    <name>BackgroundAudio</name>
+
+    <description>A Cordova plugin to enable the background audio</description>
+    <repo>https://github.com/</repo>
+    <keywords>background, audio, ios, wp8, android</keywords>
+    <license>Apache 2.0</license>
+
+    <author>Andrew Xu</author>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    <js-module src="www/BackgroundAudio.js" name="BackgroundAudio">
+        <clobbers target="window.BackgroundAudio" />
+    </js-module>
+
+    <!-- ios -->
+    <platform name="ios">
+      <!--
+        <config-file target="config.xml" parent="/*">
+            <feature name="BackgroundAudio">
+                <param name="ios-package" value="BackgroundAudio" onload="true" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <config-file target="*-Info.plist" parent="UIBackgroundModes">
+            <array>
+                <string>audio</string>
+            </array>
+        </config-file>
+
+        <config-file target="*-Info.plist" parent="NSAudioUsageDescription">
+            <string>Is required -for iOS 6 and above- to run the app in background!</string>
+        </config-file>
+
+        <header-file src="src/ios/BackgroundAudio.h" />
+        <source-file src="src/ios/BackgroundAudio.m" />
+        -->
+    </platform>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <preference name="KeepRunning" value="true" />
+        </config-file>
+    </platform>
+
+    <!-- wp8 -->
+    <platform name="wp8">
+        <config-file target="config.xml" parent="/*">
+            <feature name="BackgroundAudio">
+                <param name="wp-package" value="BackgroundAudio" onload="true" />
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <!-- The app is able to run in background through location-tracking mode -->
+        <config-file target="Properties/WMAppManifest.xml" parent="/Deployment/App/Tasks">
+          <ExtendedTask Name="BackgroundTask">
+            <BackgroundServiceAgent Name="AudioPlaybackAgent" Source="AudioPlaybackAgent" Specifier="AudioPlayerAgent" Type="AudioPlaybackAgent.AudioPlayer" />
+          </ExtendedTask>
+        </config-file>
+
+        <config-file target="Properties/WMAppManifest.xml" parent="/Deployment/App/Capabilities">
+          <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
+          <Capability Name="ID_CAP_NETWORKING" />
+          <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
+          <Capability Name="ID_CAP_MEDIALIB_PLAYBACK" />
+        </config-file>
+
+        <source-file src="src/wp8/BackgroundAudio.cs" />
+        <source-file src="src/wp8/AudioPlaybackAgent/AudioPlaybackAgent.csproj"  target-dir='../../AudioPlaybackAgent'/>
+        <source-file src="src/wp8/AudioPlaybackAgent/AudioPlayer.cs" target-dir='../../AudioPlaybackAgent'/>
+        <source-file src="src/wp8/AudioPlaybackAgent/Properties/AssemblyInfo.cs" target-dir='../../AudioPlaybackAgent/properties'/>
+    </platform>
+</plugin>
+

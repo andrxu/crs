@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.Mobi2Cloud.ChineseRadioSeattle" version="1.5.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Chinese Radio Seattle</name>
+    <description>
+        This is a third party app designed for listening Chinese Radio Seattle. 这是一个用于收听西雅图中文电台广播的移动应用。 
+    </description>
+    <author email="support@mobi2cloud.com" href="http://mobi2cloud.com/">
+        mobi2cloud team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="KeepRunning" value="true" />
+<!--
+    <gap:config-file platform="ios" parent="UIBackgroundModes" overwrite="true">
+        <array>
+            <string>audio</string>
+        </array>
+    </gap:config-file>
+-->
+</widget>

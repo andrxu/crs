@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.Mobi2Cloud.ChineseRadioSeattle" version="1.5.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="File">
+        <param name="wp-package" value="File" />
+    </feature>
+    <feature name="Media">
+        <param name="wp-package" value="Media" />
+    </feature>
+    <feature name="BackgroundAudio">
+        <param name="wp-package" value="BackgroundAudio" />
+    </feature>
+    <feature name="Device">
+        <param name="wp-package" value="Device" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="wp-package" value="InAppBrowser" />
+    </feature>
+    <name>Chinese Radio Seattle</name>
+    <description>
+        This is a third party app designed for listening Chinese Radio Seattle. ����һ��������������ͼ���ĵ�̨�㲥���ƶ�Ӧ�á� 
+    </description>
+    <author email="support@mobi2cloud.com" href="http://mobi2cloud.com/">
+        mobi2cloud team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="DisallowOverscroll" value="false" />
+    <preference name="KeepRunning" value="true" />
+</widget>

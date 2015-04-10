@@ -1,0 +1,4 @@
+F:\Radio\ChineseRadioSeattle\platforms\wp8\AudioPlaybackAgent\Bin\Release\AudioPlaybackAgent.dll
+F:\Radio\ChineseRadioSeattle\platforms\wp8\AudioPlaybackAgent\Bin\Release\AudioPlaybackAgent.pdb
+F:\Radio\ChineseRadioSeattle\platforms\wp8\AudioPlaybackAgent\obj\Release\AudioPlaybackAgent.dll
+F:\Radio\ChineseRadioSeattle\platforms\wp8\AudioPlaybackAgent\obj\Release\AudioPlaybackAgent.pdb

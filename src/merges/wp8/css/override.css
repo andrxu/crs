@@ -1,0 +1,22 @@
+@media screen and (orientation:portrait) {
+    #player {
+        margin-bottom: 0;
+    }
+}
+
+#wp_audio_player_controlbb {
+    border-radius: 50%;
+}
+
+#wp_audio_player_control {
+    border-radius: 50%;
+    margin-left: 40px; 
+}
+
+#wp_audio_player_controlff {
+    border-radius: 50%;
+    margin-left: 40px; 
+}
+
+
+

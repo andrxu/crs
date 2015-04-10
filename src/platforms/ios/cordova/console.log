@@ -1,0 +1,345 @@
+2014-09-26 15:50:41.044 Chinese Radio Seattle[4787:83138] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Data/Application/82A3FEA7-36AF-4B17-B3A0-48FCB577A650/Library/Cookies/Cookies.binarycookies
+2014-09-26 15:50:41.142 Chinese Radio Seattle[4787:83138] Multi-tasking -> Device: YES, App: YES
+2014-09-26 15:50:41.152 Chinese Radio Seattle[4787:83138] Unlimited access to network resources
+2014-09-26 15:50:41.155 Chinese Radio Seattle[4787:83138] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-26 15:50:41.399 Chinese Radio Seattle[4787:83138] [CDVTimer][file] 4.553020ms
+2014-09-26 15:50:41.399 Chinese Radio Seattle[4787:83138] [CDVTimer][TotalPluginStartup] 5.101025ms
+2014-09-26 15:50:42.086 Chinese Radio Seattle[4787:83138] Resetting plugins due to page load.
+2014-09-26 15:50:42.139 Chinese Radio Seattle[4787:83138] Finished load of: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Bundle/Application/29B46D7D-0D5D-4CDF-8D14-CFA3779C154E/Chinese%20Radio%20Seattle.app/www/index.html
+2014-09-26 15:50:44.102 Chinese Radio Seattle[4787:83138] Will use resource 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3' from the Internet.
+2014-09-26 15:50:54.007 Chinese Radio Seattle[4787:83138] Playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 15:50:54.248 Chinese Radio Seattle[4787:83138] THREAD WARNING: ['Media'] took '10145.505859' ms. Plugin should use a background thread.
+2014-09-26 15:50:54.252 Chinese Radio Seattle[4787:83170] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-09-26 15:50:54.610 Chinese Radio Seattle[4787:83138] Will use resource 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3' from the Internet.
+2014-09-26 15:51:03.039 Chinese Radio Seattle[4787:83138] Playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 15:51:03.044 Chinese Radio Seattle[4787:83138] THREAD WARNING: ['Media'] took '8434.077393' ms. Plugin should use a background thread.
+2014-09-26 15:51:03.404 Chinese Radio Seattle[4787:83138] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 15:51:03.405 Chinese Radio Seattle[4787:83138] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 15:51:03.406 Chinese Radio Seattle[4787:83138] Paused playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 15:51:03.449 Chinese Radio Seattle[4787:83138] THREAD WARNING: ['Media'] took '42.928955' ms. Plugin should use a background thread.
+2014-09-26 15:51:07.054 Chinese Radio Seattle[4787:83138] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 15:51:07.054 Chinese Radio Seattle[4787:83138] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 15:51:07.055 Chinese Radio Seattle[4787:83138] Paused playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 15:51:12.281 Chinese Radio Seattle[4787:83138] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 15:51:12.281 Chinese Radio Seattle[4787:83138] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 15:51:12.283 Chinese Radio Seattle[4787:83138] Stopped playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 15:51:14.093 Chinese Radio Seattle[4787:83138] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 15:51:14.093 Chinese Radio Seattle[4787:83138] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 15:51:14.095 Chinese Radio Seattle[4787:83138] Stopped playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 15:51:15.596 Chinese Radio Seattle[4787:83138] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 15:51:15.597 Chinese Radio Seattle[4787:83138] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 15:51:15.613 Chinese Radio Seattle[4787:83138] Stopped playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 15:51:19.728 Chinese Radio Seattle[4787:83138] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 15:51:19.728 Chinese Radio Seattle[4787:83138] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 15:51:19.732 Chinese Radio Seattle[4787:83138] Stopped playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 15:51:20.908 Chinese Radio Seattle[4787:83138] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 15:51:20.908 Chinese Radio Seattle[4787:83138] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 15:51:20.911 Chinese Radio Seattle[4787:83138] Stopped playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 15:51:21.967 Chinese Radio Seattle[4787:83138] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 15:51:21.967 Chinese Radio Seattle[4787:83138] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 15:51:21.970 Chinese Radio Seattle[4787:83138] Paused playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 16:01:18.466 Chinese Radio Seattle[5054:86861] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Data/Application/EEB095BF-9406-4CDF-AC27-8C496E057745/Library/Cookies/Cookies.binarycookies
+2014-09-26 16:01:18.556 Chinese Radio Seattle[5054:86861] Multi-tasking -> Device: YES, App: YES
+2014-09-26 16:01:18.563 Chinese Radio Seattle[5054:86861] Unlimited access to network resources
+2014-09-26 16:01:18.566 Chinese Radio Seattle[5054:86861] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-26 16:01:18.760 Chinese Radio Seattle[5054:86861] [CDVTimer][file] 2.595007ms
+2014-09-26 16:01:18.760 Chinese Radio Seattle[5054:86861] [CDVTimer][TotalPluginStartup] 2.811015ms
+2014-09-26 16:01:18.818 Chinese Radio Seattle[5054:86861] Resetting plugins due to page load.
+2014-09-26 16:01:18.875 Chinese Radio Seattle[5054:86861] Finished load of: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Bundle/Application/33EF5F99-3B10-4E9C-A018-4DB23A5E265E/Chinese%20Radio%20Seattle.app/www/index.html
+2014-09-26 16:01:22.896 Chinese Radio Seattle[5054:86861] Will use resource 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3' from the Internet.
+2014-09-26 16:01:34.256 Chinese Radio Seattle[5054:86861] Playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 16:01:34.491 Chinese Radio Seattle[5054:86861] THREAD WARNING: ['Media'] took '11595.665771' ms. Plugin should use a background thread.
+2014-09-26 16:01:34.495 Chinese Radio Seattle[5054:86882] void SendDelegateMessage(NSInvocation *): delegate (webView:decidePolicyForNavigationAction:request:frame:decisionListener:) failed to return after waiting 10 seconds. main run loop mode: kCFRunLoopDefaultMode
+2014-09-26 16:01:49.434 Chinese Radio Seattle[5054:86861] Paused playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 16:01:49.479 Chinese Radio Seattle[5054:86861] THREAD WARNING: ['Media'] took '44.096924' ms. Plugin should use a background thread.
+2014-09-26 16:02:04.272 Chinese Radio Seattle[5054:86861] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:02:04.272 Chinese Radio Seattle[5054:86861] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:02:04.275 Chinese Radio Seattle[5054:86861] Playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 16:02:13.768 Chinese Radio Seattle[5054:86861] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:02:13.768 Chinese Radio Seattle[5054:86861] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:02:13.772 Chinese Radio Seattle[5054:86861] Paused playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 16:02:13.812 Chinese Radio Seattle[5054:86861] THREAD WARNING: ['Media'] took '40.310059' ms. Plugin should use a background thread.
+2014-09-26 16:02:18.370 Chinese Radio Seattle[5054:86861] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:02:18.370 Chinese Radio Seattle[5054:86861] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:02:18.373 Chinese Radio Seattle[5054:86861] Playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 16:02:27.449 Chinese Radio Seattle[5054:86861] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:02:27.449 Chinese Radio Seattle[5054:86861] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:02:27.451 Chinese Radio Seattle[5054:86861] Paused playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 16:02:27.499 Chinese Radio Seattle[5054:86861] THREAD WARNING: ['Media'] took '47.933838' ms. Plugin should use a background thread.
+2014-09-26 16:02:31.351 Chinese Radio Seattle[5054:86861] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:02:31.351 Chinese Radio Seattle[5054:86861] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:02:31.353 Chinese Radio Seattle[5054:86861] Playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 16:02:31.365 Chinese Radio Seattle[5054:86861] THREAD WARNING: ['Media'] took '11.309814' ms. Plugin should use a background thread.
+2014-09-26 16:02:43.813 Chinese Radio Seattle[5054:86861] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:02:43.813 Chinese Radio Seattle[5054:86861] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:02:43.817 Chinese Radio Seattle[5054:86861] Paused playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 16:02:43.856 Chinese Radio Seattle[5054:86861] THREAD WARNING: ['Media'] took '39.019043' ms. Plugin should use a background thread.
+2014-09-26 16:02:49.880 Chinese Radio Seattle[5054:86861] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:02:49.881 Chinese Radio Seattle[5054:86861] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:02:49.883 Chinese Radio Seattle[5054:86861] Playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 16:02:49.893 Chinese Radio Seattle[5054:86861] THREAD WARNING: ['Media'] took '10.295654' ms. Plugin should use a background thread.
+2014-09-26 16:02:57.956 Chinese Radio Seattle[5054:86861] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:02:57.956 Chinese Radio Seattle[5054:86861] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:02:57.959 Chinese Radio Seattle[5054:86861] Stopped playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 16:03:05.019 Chinese Radio Seattle[5054:86861] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:03:05.020 Chinese Radio Seattle[5054:86861] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:03:05.023 Chinese Radio Seattle[5054:86861] Will use resource 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3' from the Internet.
+2014-09-26 16:03:14.075 Chinese Radio Seattle[5054:86861] Playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 16:03:14.087 Chinese Radio Seattle[5054:86861] THREAD WARNING: ['Media'] took '9064.123779' ms. Plugin should use a background thread.
+2014-09-26 16:03:14.446 Chinese Radio Seattle[5054:86861] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:03:14.446 Chinese Radio Seattle[5054:86861] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:03:14.447 Chinese Radio Seattle[5054:86861] Will use resource 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3' from the Internet.
+2014-09-26 16:40:24.441 Chinese Radio Seattle[5597:100040] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Data/Application/A2F64547-7104-4AFD-B6FD-4AF05F0C54BC/Library/Cookies/Cookies.binarycookies
+2014-09-26 16:40:24.540 Chinese Radio Seattle[5597:100040] Multi-tasking -> Device: YES, App: YES
+2014-09-26 16:40:24.547 Chinese Radio Seattle[5597:100040] Unlimited access to network resources
+2014-09-26 16:40:24.549 Chinese Radio Seattle[5597:100040] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-26 16:40:24.757 Chinese Radio Seattle[5597:100040] [CDVTimer][file] 1.954019ms
+2014-09-26 16:40:24.757 Chinese Radio Seattle[5597:100040] [CDVTimer][TotalPluginStartup] 2.177000ms
+2014-09-26 16:40:24.821 Chinese Radio Seattle[5597:100040] Resetting plugins due to page load.
+2014-09-26 16:40:24.880 Chinese Radio Seattle[5597:100040] Finished load of: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Bundle/Application/7E4C2210-2530-4774-9763-FA4C3409C67D/Chinese%20Radio%20Seattle.app/www/index.html
+2014-09-26 16:40:30.609 Chinese Radio Seattle[5597:100040] Will use resource 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3' from the Internet.
+2014-09-26 16:40:39.910 Chinese Radio Seattle[5597:100040] Playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 16:40:40.147 Chinese Radio Seattle[5597:100040] THREAD WARNING: ['Media'] took '9537.441162' ms. Plugin should use a background thread.
+2014-09-26 16:41:07.029 Chinese Radio Seattle[5597:100040] Paused playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 16:41:07.068 Chinese Radio Seattle[5597:100040] THREAD WARNING: ['Media'] took '38.647217' ms. Plugin should use a background thread.
+2014-09-26 16:41:10.466 Chinese Radio Seattle[5597:100040] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:41:10.466 Chinese Radio Seattle[5597:100040] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:41:10.469 Chinese Radio Seattle[5597:100040] Playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 16:41:10.481 Chinese Radio Seattle[5597:100040] THREAD WARNING: ['Media'] took '11.714844' ms. Plugin should use a background thread.
+2014-09-26 16:41:54.598 Chinese Radio Seattle[5597:100040] CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:41:54.598 Chinese Radio Seattle[5597:100040] Failed to load webpage with error: CDVWebViewDelegate: Navigation started when state=1
+2014-09-26 16:41:54.601 Chinese Radio Seattle[5597:100040] Stopped playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 16:42:29.270 Chinese Radio Seattle[5752:101440] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Data/Application/055144D6-EC39-49BF-ADB3-3435833C0DCC/Library/Cookies/Cookies.binarycookies
+2014-09-26 16:42:29.444 Chinese Radio Seattle[5752:101440] Multi-tasking -> Device: YES, App: YES
+2014-09-26 16:42:29.451 Chinese Radio Seattle[5752:101440] Unlimited access to network resources
+2014-09-26 16:42:29.453 Chinese Radio Seattle[5752:101440] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-26 16:42:29.623 Chinese Radio Seattle[5752:101440] [CDVTimer][file] 1.883984ms
+2014-09-26 16:42:29.623 Chinese Radio Seattle[5752:101440] [CDVTimer][TotalPluginStartup] 2.044976ms
+2014-09-26 16:42:29.678 Chinese Radio Seattle[5752:101440] Resetting plugins due to page load.
+2014-09-26 16:42:29.731 Chinese Radio Seattle[5752:101440] Finished load of: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Bundle/Application/64D1265B-DBCD-42E6-9883-2654522C45D5/Chinese%20Radio%20Seattle.app/www/index.html
+2014-09-26 18:41:46.654 Chinese Radio Seattle[7173:132481] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Data/Application/D1DA3295-69CA-465E-A430-4782829EABB3/Library/Cookies/Cookies.binarycookies
+2014-09-26 18:41:46.776 Chinese Radio Seattle[7173:132481] Multi-tasking -> Device: YES, App: YES
+2014-09-26 18:41:46.783 Chinese Radio Seattle[7173:132481] Unlimited access to network resources
+2014-09-26 18:41:46.786 Chinese Radio Seattle[7173:132481] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-26 18:41:47.038 Chinese Radio Seattle[7173:132481] [CDVTimer][file] 2.865970ms
+2014-09-26 18:41:47.038 Chinese Radio Seattle[7173:132481] [CDVTimer][TotalPluginStartup] 3.075004ms
+2014-09-26 18:41:47.108 Chinese Radio Seattle[7173:132481] Resetting plugins due to page load.
+2014-09-26 18:41:47.469 Chinese Radio Seattle[7173:132481] Finished load of: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Bundle/Application/897D0E21-B9B9-4FAE-BD6F-60B346715D63/Chinese%20Radio%20Seattle.app/www/index.html
+2014-09-26 18:42:07.478 Chinese Radio Seattle[7173:132481] Will use resource 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3' from the Internet.
+2014-09-26 18:42:16.974 Chinese Radio Seattle[7173:132481] Playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 18:42:17.209 Chinese Radio Seattle[7173:132481] THREAD WARNING: ['Media'] took '9731.505859' ms. Plugin should use a background thread.
+2014-09-26 18:42:26.022 Chinese Radio Seattle[7173:132481] Paused playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 18:42:26.067 Chinese Radio Seattle[7173:132481] THREAD WARNING: ['Media'] took '44.542969' ms. Plugin should use a background thread.
+2014-09-26 18:42:30.554 Chinese Radio Seattle[7173:132481] Playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 18:44:50.344 Chinese Radio Seattle[7406:134266] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Data/Application/2B27888D-66E6-4579-B890-BB6A041EE071/Library/Cookies/Cookies.binarycookies
+2014-09-26 18:44:50.516 Chinese Radio Seattle[7406:134266] Multi-tasking -> Device: YES, App: YES
+2014-09-26 18:44:50.523 Chinese Radio Seattle[7406:134266] Unlimited access to network resources
+2014-09-26 18:44:50.526 Chinese Radio Seattle[7406:134266] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-26 18:44:50.779 Chinese Radio Seattle[7406:134266] [CDVTimer][file] 2.014995ms
+2014-09-26 18:44:50.779 Chinese Radio Seattle[7406:134266] [CDVTimer][TotalPluginStartup] 2.220988ms
+2014-09-26 18:44:50.835 Chinese Radio Seattle[7406:134266] Resetting plugins due to page load.
+2014-09-26 18:44:51.016 Chinese Radio Seattle[7406:134266] Finished load of: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Bundle/Application/607EC376-AC8B-49BE-B31F-F1E9E3906CF5/Chinese%20Radio%20Seattle.app/www/index.html
+2014-09-26 18:45:10.716 Chinese Radio Seattle[7406:134266] Will use resource 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3' from the Internet.
+2014-09-26 18:45:20.080 Chinese Radio Seattle[7406:134266] Playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 18:45:20.317 Chinese Radio Seattle[7406:134266] THREAD WARNING: ['Media'] took '9600.916992' ms. Plugin should use a background thread.
+2014-09-26 18:48:47.006 Chinese Radio Seattle[7661:136612] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Data/Application/BED27B6C-8313-42EE-B00E-6AC725214FF0/Library/Cookies/Cookies.binarycookies
+2014-09-26 18:48:47.089 Chinese Radio Seattle[7661:136612] Multi-tasking -> Device: YES, App: YES
+2014-09-26 18:48:47.097 Chinese Radio Seattle[7661:136612] Unlimited access to network resources
+2014-09-26 18:48:47.100 Chinese Radio Seattle[7661:136612] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-26 18:48:47.293 Chinese Radio Seattle[7661:136612] [CDVTimer][file] 2.074957ms
+2014-09-26 18:48:47.293 Chinese Radio Seattle[7661:136612] [CDVTimer][TotalPluginStartup] 2.276003ms
+2014-09-26 18:48:47.351 Chinese Radio Seattle[7661:136612] Resetting plugins due to page load.
+2014-09-26 18:48:47.515 Chinese Radio Seattle[7661:136612] Finished load of: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Bundle/Application/61BA9173-5F86-4B3A-9A3C-4906CF7434EE/Chinese%20Radio%20Seattle.app/www/index.html
+2014-09-26 18:51:42.784 Chinese Radio Seattle[7909:138360] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Data/Application/0DEAB171-01CF-4D60-8495-C9BA3390009B/Library/Cookies/Cookies.binarycookies
+2014-09-26 18:51:42.958 Chinese Radio Seattle[7909:138360] Multi-tasking -> Device: YES, App: YES
+2014-09-26 18:51:42.963 Chinese Radio Seattle[7909:138360] Unlimited access to network resources
+2014-09-26 18:51:42.965 Chinese Radio Seattle[7909:138360] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-26 18:51:43.186 Chinese Radio Seattle[7909:138360] [CDVTimer][file] 2.540946ms
+2014-09-26 18:51:43.186 Chinese Radio Seattle[7909:138360] [CDVTimer][TotalPluginStartup] 2.856016ms
+2014-09-26 18:51:43.248 Chinese Radio Seattle[7909:138360] Resetting plugins due to page load.
+2014-09-26 18:51:43.393 Chinese Radio Seattle[7909:138360] Finished load of: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Bundle/Application/5950C4F0-C488-4582-A73E-F06D9909BDC5/Chinese%20Radio%20Seattle.app/www/index.html
+2014-09-26 18:52:16.287 Chinese Radio Seattle[7909:138360] Will use resource 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3' from the Internet.
+2014-09-26 18:52:25.381 Chinese Radio Seattle[7909:138360] Playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 18:52:25.616 Chinese Radio Seattle[7909:138360] THREAD WARNING: ['Media'] took '9328.906006' ms. Plugin should use a background thread.
+2014-09-26 18:52:31.350 Chinese Radio Seattle[7909:138360] Paused playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 18:52:31.398 Chinese Radio Seattle[7909:138360] THREAD WARNING: ['Media'] took '48.185059' ms. Plugin should use a background thread.
+2014-09-26 18:58:42.132 Chinese Radio Seattle[8165:141164] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Data/Application/337FB4DF-6348-48A1-A20A-A005C8C1CA80/Library/Cookies/Cookies.binarycookies
+2014-09-26 18:58:42.278 Chinese Radio Seattle[8165:141164] Multi-tasking -> Device: YES, App: YES
+2014-09-26 18:58:42.285 Chinese Radio Seattle[8165:141164] Unlimited access to network resources
+2014-09-26 18:58:42.287 Chinese Radio Seattle[8165:141164] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-26 18:58:42.553 Chinese Radio Seattle[8165:141164] [CDVTimer][file] 2.638996ms
+2014-09-26 18:58:42.553 Chinese Radio Seattle[8165:141164] [CDVTimer][TotalPluginStartup] 2.892971ms
+2014-09-26 18:58:42.618 Chinese Radio Seattle[8165:141164] Resetting plugins due to page load.
+2014-09-26 18:58:42.801 Chinese Radio Seattle[8165:141164] Finished load of: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Bundle/Application/79B1B58F-82C0-4E45-A884-6D7A47E1C1C2/Chinese%20Radio%20Seattle.app/www/index.html
+2014-09-26 18:59:17.138 Chinese Radio Seattle[8269:141657] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Data/Application/B930CE15-E457-4D3C-896F-909ACE4A3FD6/Library/Cookies/Cookies.binarycookies
+2014-09-26 18:59:17.241 Chinese Radio Seattle[8269:141657] Multi-tasking -> Device: YES, App: YES
+2014-09-26 18:59:17.247 Chinese Radio Seattle[8269:141657] Unlimited access to network resources
+2014-09-26 18:59:17.249 Chinese Radio Seattle[8269:141657] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-26 18:59:17.431 Chinese Radio Seattle[8269:141657] [CDVTimer][file] 1.886010ms
+2014-09-26 18:59:17.431 Chinese Radio Seattle[8269:141657] [CDVTimer][TotalPluginStartup] 2.029002ms
+2014-09-26 18:59:17.490 Chinese Radio Seattle[8269:141657] Resetting plugins due to page load.
+2014-09-26 18:59:17.624 Chinese Radio Seattle[8269:141657] Finished load of: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Bundle/Application/85965014-81BD-4FF7-BFB3-A75B57CD78DA/Chinese%20Radio%20Seattle.app/www/index.html
+2014-09-26 19:00:20.558 Chinese Radio Seattle[8450:142583] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Data/Application/41495780-35F0-43B9-9D88-211BA3DDA328/Library/Cookies/Cookies.binarycookies
+2014-09-26 19:00:20.665 Chinese Radio Seattle[8450:142583] Multi-tasking -> Device: YES, App: YES
+2014-09-26 19:00:20.670 Chinese Radio Seattle[8450:142583] Unlimited access to network resources
+2014-09-26 19:00:20.671 Chinese Radio Seattle[8450:142583] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-26 19:00:20.826 Chinese Radio Seattle[8450:142583] [CDVTimer][file] 1.891017ms
+2014-09-26 19:00:20.826 Chinese Radio Seattle[8450:142583] [CDVTimer][TotalPluginStartup] 2.038002ms
+2014-09-26 19:00:20.874 Chinese Radio Seattle[8450:142583] Resetting plugins due to page load.
+2014-09-26 19:00:21.007 Chinese Radio Seattle[8450:142583] Finished load of: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Bundle/Application/B0E7D335-0916-467B-8B82-D5255B50608A/Chinese%20Radio%20Seattle.app/www/index.html
+2014-09-26 19:01:04.065 Chinese Radio Seattle[8628:143278] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Data/Application/38398599-9C64-44E5-9B85-762C838CEA4F/Library/Cookies/Cookies.binarycookies
+2014-09-26 19:01:04.160 Chinese Radio Seattle[8628:143278] Multi-tasking -> Device: YES, App: YES
+2014-09-26 19:01:04.166 Chinese Radio Seattle[8628:143278] Unlimited access to network resources
+2014-09-26 19:01:04.168 Chinese Radio Seattle[8628:143278] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-26 19:01:04.328 Chinese Radio Seattle[8628:143278] [CDVTimer][file] 2.436996ms
+2014-09-26 19:01:04.328 Chinese Radio Seattle[8628:143278] [CDVTimer][TotalPluginStartup] 2.660990ms
+2014-09-26 19:01:04.386 Chinese Radio Seattle[8628:143278] Resetting plugins due to page load.
+2014-09-26 19:01:04.522 Chinese Radio Seattle[8628:143278] Finished load of: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Bundle/Application/3914039A-3075-43AD-9C04-BD92500CC5E8/Chinese%20Radio%20Seattle.app/www/index.html
+2014-09-26 19:03:05.759 Chinese Radio Seattle[8823:144528] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Data/Application/FF8D3485-5825-4FBD-9BAE-05BC646880A0/Library/Cookies/Cookies.binarycookies
+2014-09-26 19:03:05.847 Chinese Radio Seattle[8823:144528] Multi-tasking -> Device: YES, App: YES
+2014-09-26 19:03:05.852 Chinese Radio Seattle[8823:144528] Unlimited access to network resources
+2014-09-26 19:03:05.855 Chinese Radio Seattle[8823:144528] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-26 19:03:06.022 Chinese Radio Seattle[8823:144528] [CDVTimer][file] 2.390027ms
+2014-09-26 19:03:06.022 Chinese Radio Seattle[8823:144528] [CDVTimer][TotalPluginStartup] 2.565026ms
+2014-09-26 19:03:06.069 Chinese Radio Seattle[8823:144528] Resetting plugins due to page load.
+2014-09-26 19:03:06.209 Chinese Radio Seattle[8823:144528] Finished load of: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Bundle/Application/7685FB46-BB4A-482F-A6A4-1EDF44978CF0/Chinese%20Radio%20Seattle.app/www/index.html
+2014-09-26 19:03:54.887 Chinese Radio Seattle[9004:145305] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Data/Application/8768808E-44D7-4E61-B9D7-FE9C21A9BA3E/Library/Cookies/Cookies.binarycookies
+2014-09-26 19:03:54.965 Chinese Radio Seattle[9004:145305] Multi-tasking -> Device: YES, App: YES
+2014-09-26 19:03:54.969 Chinese Radio Seattle[9004:145305] Unlimited access to network resources
+2014-09-26 19:03:54.971 Chinese Radio Seattle[9004:145305] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-26 19:03:55.121 Chinese Radio Seattle[9004:145305] [CDVTimer][file] 1.951993ms
+2014-09-26 19:03:55.121 Chinese Radio Seattle[9004:145305] [CDVTimer][TotalPluginStartup] 2.098978ms
+2014-09-26 19:03:55.167 Chinese Radio Seattle[9004:145305] Resetting plugins due to page load.
+2014-09-26 19:03:55.290 Chinese Radio Seattle[9004:145305] Finished load of: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Bundle/Application/502459AA-6262-4079-82CB-14F3FBDB0CAF/Chinese%20Radio%20Seattle.app/www/index.html
+2014-09-26 19:04:44.568 Chinese Radio Seattle[9183:146033] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Data/Application/BAFDC10F-96F2-48DB-B6EA-B6B65D5B057C/Library/Cookies/Cookies.binarycookies
+2014-09-26 19:04:44.658 Chinese Radio Seattle[9183:146033] Multi-tasking -> Device: YES, App: YES
+2014-09-26 19:04:44.663 Chinese Radio Seattle[9183:146033] Unlimited access to network resources
+2014-09-26 19:04:44.665 Chinese Radio Seattle[9183:146033] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-26 19:04:44.829 Chinese Radio Seattle[9183:146033] [CDVTimer][file] 2.744973ms
+2014-09-26 19:04:44.829 Chinese Radio Seattle[9183:146033] [CDVTimer][TotalPluginStartup] 3.096998ms
+2014-09-26 19:04:44.880 Chinese Radio Seattle[9183:146033] Resetting plugins due to page load.
+2014-09-26 19:04:45.017 Chinese Radio Seattle[9183:146033] Finished load of: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Bundle/Application/C4B25799-0A69-4F94-BA2F-2E0035AE4B2F/Chinese%20Radio%20Seattle.app/www/index.html
+2014-09-26 19:05:52.923 Chinese Radio Seattle[9363:146880] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Data/Application/423E9B0D-B52E-4881-9BFC-45AD0E9A2868/Library/Cookies/Cookies.binarycookies
+2014-09-26 19:05:53.011 Chinese Radio Seattle[9363:146880] Multi-tasking -> Device: YES, App: YES
+2014-09-26 19:05:53.016 Chinese Radio Seattle[9363:146880] Unlimited access to network resources
+2014-09-26 19:05:53.018 Chinese Radio Seattle[9363:146880] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-26 19:05:53.171 Chinese Radio Seattle[9363:146880] [CDVTimer][file] 1.962960ms
+2014-09-26 19:05:53.172 Chinese Radio Seattle[9363:146880] [CDVTimer][TotalPluginStartup] 2.201021ms
+2014-09-26 19:05:53.222 Chinese Radio Seattle[9363:146880] Resetting plugins due to page load.
+2014-09-26 19:05:53.357 Chinese Radio Seattle[9363:146880] Finished load of: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Bundle/Application/B484973D-72B4-4E1C-8DC6-C04F3086D640/Chinese%20Radio%20Seattle.app/www/index.html
+2014-09-26 19:06:09.120 Chinese Radio Seattle[9363:146880] Will use resource 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3' from the Internet.
+2014-09-26 19:06:18.024 Chinese Radio Seattle[9363:146880] Playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 19:06:18.260 Chinese Radio Seattle[9363:146880] THREAD WARNING: ['Media'] took '9139.885986' ms. Plugin should use a background thread.
+2014-09-26 19:06:18.622 Chinese Radio Seattle[9363:146880] Will use resource 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3' from the Internet.
+2014-09-26 19:06:27.378 Chinese Radio Seattle[9363:146880] Playing audio sample 'https://chineseradioseattle.files.wordpress.com/2014/09/crs_0924_full.mp3'
+2014-09-26 19:06:27.385 Chinese Radio Seattle[9363:146880] THREAD WARNING: ['Media'] took '8762.759033' ms. Plugin should use a background thread.
+2014-09-26 19:06:58.892 Chinese Radio Seattle[9545:147740] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Data/Application/B88E06DF-5B33-4EC5-8BB3-818473C025DA/Library/Cookies/Cookies.binarycookies
+2014-09-26 19:06:58.977 Chinese Radio Seattle[9545:147740] Multi-tasking -> Device: YES, App: YES
+2014-09-26 19:06:58.982 Chinese Radio Seattle[9545:147740] Unlimited access to network resources
+2014-09-26 19:06:58.984 Chinese Radio Seattle[9545:147740] 
+
+Started backup to iCloud! Please be careful.
+Your application might rejected by Apple if you store too much data.
+For more information please read "iOS Data Storage Guidelines"
+You could find it at the following address https://developer.apple.com/icloud/documentation/data-storage/ .
+
+2014-09-26 19:06:59.137 Chinese Radio Seattle[9545:147740] [CDVTimer][file] 1.918972ms
+2014-09-26 19:06:59.137 Chinese Radio Seattle[9545:147740] [CDVTimer][TotalPluginStartup] 2.065003ms
+2014-09-26 19:06:59.187 Chinese Radio Seattle[9545:147740] Resetting plugins due to page load.
+2014-09-26 19:06:59.319 Chinese Radio Seattle[9545:147740] Finished load of: file:///Users/AndrewXu/Library/Developer/CoreSimulator/Devices/304E2ABE-B7B3-4DEF-95C9-0937B60BD2AD/data/Containers/Bundle/Application/71AB2AF3-6A97-4BA6-88B8-D48ACAA9F6B5/Chinese%20Radio%20Seattle.app/www/index.html

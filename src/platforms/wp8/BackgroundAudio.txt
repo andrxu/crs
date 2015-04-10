@@ -1,0 +1,24 @@
+change cordova_plugins.js
+
+	    {
+        "file": "plugins/org.apache.cordova.backgroundaudio/www/BackgroundAudio.js",
+        "id": "org.apache.cordova.backgroundaudio.BackgroundAudio",
+        "clobbers": [
+            "window.BackgroundAudio"
+        ]
+    }
+];
+module.exports.metadata = 
+// TOP OF METADATA
+{
+    "org.apache.cordova.file": "1.3.1",
+    "org.apache.cordova.media": "0.2.13"£¬
+    "org.apache.cordova.backgroundaudio": "0.2.13"£¬	
+}
+
+	
+config.xml 
+	
+  <feature name="BackgroundAudio">
+    <param name="wp-package" value="BackgroundAudio" />
+  </feature>
