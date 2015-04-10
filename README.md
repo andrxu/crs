@@ -7,6 +7,13 @@ Cordova based Mobile App for Chinese Radio Seattle
 >cordova build wp8
 >cordova build ios
 ```
+
+### Ripple emulate 
+```
+cd www
+ripple emulate -port 1234
+```
+
 ### Android Submission
 
 ```
