@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <title>西雅图中文电台</title>
+
+    <link rel="stylesheet" href="js/jquery.mobile-1.4.4.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/override.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/slick.css" />
+</head>
+<body>
+    <div data-role="page" id="index">
+        <div class="header" data-role="header" data-position="fixed" data-theme="b" data-tap-toggle="false">
+            <div class="header-left" onclick="app.goHome();"><h1><i class="fa fa-home"></i></h1></div>
+            <div class="header-title"><h1 class="page-title">西雅图中文电台</h1></div>
+            <div class="header-right" onclick="app.showMore();"><h1><i class="fa fa-bars"></i></h1></div>
+        </div>
+        <div data-role="panel" data-position="right" data-display="overlay" id="navPanel">
+			<div class="panel-header" style="margin-top: 10px;">普通话频道</div>
+            <div>
+                <ul class="navLinks col2">
+                    <li><a href="" class="navlink" data=''>当前</a></li>
+                    <li><a href="" class="navlink" data='newstalk_by_three'>时事</a></li>
+                    <li><a href="" class="navlink" data='american_stories'>故事</a></li>
+                    <li><a href="" class="navlink" data='hot_topics_on_the_web'>网事</a></li>
+                    <li><a href="" class="navlink" data='campus_life'>校园</a></li>
+                    <li><a href="" class="navlink" data='love_and_feelings'>情感</a></li>
+                    <li><a href="" class="navlink" data='music'>音乐</a></li>
+                    <li><a href="" class="navlink" data='entertainment_unlimited'>娱乐</a></li>
+                    <li><a href="" class="navlink" data='travel'>旅途</a></li>
+                    <li><a href="" class="navlink" data='expert_talks'>专家</a></li>
+                    <li><a href="" class="navlink" data='expert_talks/weekly_finance'>财经</a></li>
+                    <li><a href="" class="navlink" data='family_show'>家庭</a></li>
+                    <li><a href="" class="navlink" data='children'>少儿</a></li>
+                    <li><a href="" class="navlink" data='books_movies'>书影</a></li>
+                    <li><a href="" class="navlink" data='kamantime'>嘉敏</a></li>
+                    <li><a href="" class="navlink" data='saturday/dating_on_saturday'>星期六</a></li>
+                    <li><a href="" class="navlink" data='saturday/lawyer_cao_mailbox'>曹律师</a></li>
+                    <li><a href="" class="navlink" data='saturday/soul_harbor'>心港</a></li>
+                    <li><a href="" class="navlink" data='gospel_time'>福音</a></li>
+                    <li><a href="" class="navlink" data='mayor_lee_mailbox'>李市长</a></li>
+                </ul>
+            </div>				
+            <div class="panel-header">粵語頻道</div>
+            <div>
+                <ul class="navLinks">
+					<li><a href="" class="navlink" data='cantonese/cantonese_music'>粵語歌曲</a></li>
+                    <li><a href="" class="navlink" data='cantonese/eat_drink_play_fun_in_seattle'>吃喝玩樂西雅圖</a></li>
+                    <li><a href="" class="navlink" data='cantonese/cantonese/art_show'>藝林漫話</a></li>
+                    <li><a href="" class="navlink" data='cantonese/cantonese_yehua'>西城夜話</a></li>
+                </ul>
+            </div>
+            <div class="left-margin">
+                    <a href='#' onclick='$("#navPanel").panel("close");$.mobile.navigate("#info");' data-mini="true" data-role="button" data-inline="true"><i class="fa fa-info-circle"></i> 关于 </a>
+            </div>
+        </div>
+
+        <div class="images_slider"></div>
+
+        <div data-role="content">
+            <div>
+                <ul data-role="listview" data-inset="false" id="listitems">
+                    <!--/list -->
+                </ul>
+            </div>
+        </div>
+
+        <div data-role="footer" data-position="fixed" data-tap-toggle="false" data-transition="none">
+            <div id="player" style="margin-left:10px; margin-right:10px; display:none;">
+                <div id="player-media-name"></div>
+                <div style="margin-top: 5px;">
+                    <audio id="audio_player" controls="controls" msaudiocategory="BackgroundCapableMedia">
+                        <source src="" type="audio/mpeg">
+                        Your browser does not support the audio tag.
+                    </audio>
+                </div>
+                <div id="wp_audio_player" style="display:none">
+                    <div class="list-group-item">
+                        <a id="wp_audio_player_controlbb" href="#" onclick="Audio.Seek(-300);" class="ui-btn ui-shadow fa fa-fast-backward fa-2x"></a>
+                        <a id="wp_audio_player_control" href="#" onclick="Audio.Pause();" class="ui-btn ui-shadow fa fa-pause fa-2x"></a>
+                        <a id="wp_audio_player_controlff" href="#" onclick="Audio.Seek(300);" class="ui-btn ui-shadow fa fa-fast-forward fa-2x"></a>
+                    </div>
+                    <span id="audio_position"></span> <span id="audio_left" style="margin-left: 60px;"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="page" id="info" data-dialog="false">
+        <div class="header" data-role="header" data-position="fixed" data-theme="b" data-tap-toggle="false">
+            <div class="header-left" onclick="$.mobile.back();"><h1><i class="fa fa-chevron-left"></i></h1></div>
+            <div class="header-title"><h1 class="page-title">应用信息</h1></div>
+            <div class="header-right"><h1></h1></div>
+        </div>
+        <div id="content" data-role="content">
+            <div>
+                <a href="#" onclick="openLink('http://chineseradioseattle.com/')"><img src="img/crs_logo_small_square1.png" class='logo200x200' /></a>
+                <p class="info-text">
+                    此app是 <a href="" class="ext-text-link" onclick="openLink('http://mobi2cloud.com/')"><i class="fa fa-external-link"></i> mobi<b>2</b>cloud</a> 友情提供的开源软件。 作为西雅图中文电台的热心听众，为了让用手机或其它移动设备用户收听更方便，我们制作了这款简单但还实用的app。 此app播放的音频内容读自西雅图中文电台官方网站, 媒体的版权归该电台或相关原创作者拥有。您可按一下上面的台标，直接访问其网站，以获取更多的文字或视频资讯。
+                </p>
+                <p class="info-text">
+                    如果您对此app有反馈建议，或想参与进一步的完善和开发，请<a href="#" data-role="button" onclick='openLink("mailto:support@mobi2cloud.com?subject=Chinese Radio Seattle");'><i class="fa fa-envelope"></i>&nbsp;联系我们</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.4.min.js"></script>
+    <script src="cordova.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/audio.js"></script>
+</body>
+</html>

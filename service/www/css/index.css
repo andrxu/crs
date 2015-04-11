@@ -1,0 +1,208 @@
+* {
+    -webkit-tap-highlight-color: #000;
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none; /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none; /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none; /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color: #000;
+    background-image: linear-gradient(top, #A7A7A7 0, #E4E4E4 51%);
+    background-image: -webkit-linear-gradient(top, #A7A7A7 0, #E4E4E4 51%);
+    background-image: -ms-linear-gradient(top, #A7A7A7 0, #E4E4E4 51%);
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #A7A7A7), color-stop(0.51, #E4E4E4) );
+    background-attachment: fixed;
+    font-family: 'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif, "Microsoft YaHei New", "Microsoft Yahei", "Î¢ÈíÑÅºÚ", ËÎÌå, SimSun, STXihei, "»ªÎÄÏ¸ºÚ";
+    font-size: 12px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* Portrait layout (default) */
+.app {
+     /* background: url(../img/logo.png) no-repeat center top; 170px x 200px */
+    position: absolute; /* position in the center of the screen */
+    left: 50%;
+    top: 0;
+    height: 50px; /* text area height */
+    width: 225px; /* text area width */
+    text-align: center;
+    padding: 180px 0 0 0; /* image height is 200px (bottom 20px are overlapped with text) */
+    margin: -115px 0 0 -112px; /* offset vertical: half of image height and text area height */
+    /* offset horizontal: half of text area width */
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position: left center;
+        padding: 75px 0 75px 170px; /* padding-top + padding-bottom + text area = image height */
+        margin: -90px 0 0 -198px; /* offset vertical: half of image height */
+        /* offset horizontal: half of image width and text area width */
+    }
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: normal;
+    margin: 0;
+    overflow: visible;
+    padding: 0;
+    text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+.page-title {
+    font-size: 20px;
+    overflow: visible !important;
+}
+
+#listitems li a {
+    color: #000;
+    font-size: 18px;
+    white-space: normal !important;
+}
+
+.ui-header {
+    border: none;
+}
+
+.navlink {
+    font-size: 18px;
+    text-decoration: none;
+    color: #000;
+    text-shadow: none;
+    font-weight: normal;
+}
+
+.navLinks li {
+    font-family: "Microsoft YaHei New", "Microsoft Yahei", "Î¢ÈíÑÅºÚ", ËÎÌå, SimSun, STXihei, "»ªÎÄÏ¸ºÚ", sans-serif;
+    display: inline-block;
+    padding-right: 0;
+    padding-bottom: 13px;
+    list-style: none;
+    white-space: nowrap;
+}
+
+.col2 {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+}
+
+.ui-bar-b {
+    background-color: #2020a2;
+    background-position: 80% 20%;
+    background-repeat: no-repeat;
+}
+
+.ui-icon-audio:after {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214.018px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014.018%2014%22%20style%3D%22enable-background%3Anew%200%200%2014.018%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpath%20fill%3D%22%23339933%22%20d%3D%22M1%2C4C0.447%2C4%2C0%2C4.447%2C0%2C5v4c0%2C0.553%2C0.447%2C1%2C1%2C1h1l4%2C4V0L2%2C4H1z%20M10.346%2C7c0-1.699-1.042-3.154-2.546-3.867L6.982%2C4.68%20C7.885%2C5.107%2C8.51%2C5.98%2C8.51%2C7S7.885%2C8.893%2C6.982%2C9.32L7.8%2C10.867C9.304%2C10.154%2C10.346%2C8.699%2C10.346%2C7z%20M9.447%2C0.017L8.618%2C1.586%20C10.723%2C2.584%2C12.182%2C4.621%2C12.182%2C7s-1.459%2C4.416-3.563%2C5.414l0.829%2C1.569c2.707-1.283%2C4.57-3.925%2C4.57-6.983%20S12.154%2C1.3%2C9.447%2C0.017z%22%2F%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+    background-color: #FFF;
+}
+
+.ui-icon-info:after {
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2214px%22%20height%3D%2214px%22%20viewBox%3D%220%200%2014%2014%22%20style%3D%22enable-background%3Anew%200%200%2014%2014%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpath%20fill%3D%22%23BBB%22%20d%3D%22M7%2C0C3.134%2C0%2C0%2C3.134%2C0%2C7s3.134%2C7%2C7%2C7s7-3.134%2C7-7S10.866%2C0%2C7%2C0z%20M7%2C2c0.552%2C0%2C1%2C0.447%2C1%2C1S7.552%2C4%2C7%2C4S6%2C3.553%2C6%2C3%20S6.448%2C2%2C7%2C2z%20M9%2C11H5v-1h1V6H5V5h3v5h1V11z%22%2F%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+}
+
+.panel-header {
+    font-size: 21px;
+}
+
+.header {
+    padding: 0;
+    width: 100%;
+    display: table;
+}
+
+    .header div {
+        display: table-cell;
+        text-align: center;
+        padding-left: 18px;
+        padding-right: 18px;
+        padding-top: 18px;
+        padding-bottom: 8px;
+    }
+
+        .header div:active {
+            border: 1px solid #b1b1b1;
+            border-radius: 8px;
+        }
+
+.header-left {
+    float: left;
+    min-width: 30px;
+    width: auto;
+    height: 100%;
+    cursor: pointer;
+}
+
+.header-title {
+    vertical-align: middle;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.header-right {
+    float: right;
+    width: auto;
+    min-width: 30px;
+    height: 100%;
+    cursor: pointer;
+}
+
+    .header-right:active {
+        border: 1px solid #b1b1b1;
+        border-radius: 8px;
+    }
+
+.small {
+    color: #b1b1b1;
+    font-size: 14px;
+}
+
+#navPanel {
+    background: #f0f0f0;
+}
+
+.activeLI {
+    border-left: 5px solid #00F !important;
+}
+
+.left-margin {
+    margin-left: 10px;
+}
+
+#player-media-name {
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #000;
+}
+
+/* Info.html */
+
+#info {
+    background-color: #FFF;
+}
+
+.info-text {
+    font-size: 16px;
+}
+
+.logo200x200 {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.ext-text-link {
+    text-decoration: none;
+    font-weight: normal !important;
+}

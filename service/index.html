@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Seattle Chinese Radio App</title>
+    <style>
+        .myframe {
+            width: 570px;
+            height: 1198px;
+            overflow: hidden;
+            background-image: url("img/skin.png");
+            background-repeat: no-repeat;
+			-webkit-overflow-scrolling: touch;
+        }
+
+        .mycontent {
+            width: 481px;
+            height: 826px;
+            overflow: hidden;
+            margin-left: 47px;
+            margin-top: 206px;
+            border: 0px;
+        }
+
+        /* Let's get this party started */
+        ::-webkit-scrollbar {
+            width: 1px;
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            -webkit-border-radius: 0px;
+            border-radius: 0px;
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            -webkit-border-radius: 5px;
+            border-radius: 5px;
+            background: rgba(255,0,0,0.8);
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+        }
+
+            ::-webkit-scrollbar-thumb:window-inactive {
+                background: rgba(255,0,0,0.4);
+            }
+
+        .mytext {
+            font-size: 150%;
+        }
+    </style>
+</head>
+<body>
+    <p class="mytext">If you are using a mobile device, please click <a href="http://www.mobi2cloud.com/apps/crs/www/">here</a> to run the app directly in your mobile browser.</p>
+    <div class="myframe">
+        <iframe class="mycontent" seamless="seamless" src="http://www.mobi2cloud.com/apps/crs/www/"></iframe>
+    </div>
+</body>
+</html>
