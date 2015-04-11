@@ -1,7 +1,7 @@
 # crs
 Cordova based Mobile App for Chinese Radio Seattle
 ### Screenshots
-![](screenshots/screen.png)
+![](screenshots/screen.jpeg)
 
 ### How to build 
 ```
