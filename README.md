@@ -1,6 +1,6 @@
 # crs
-Cordova based Mobile App for Chinese Radio Seattle
-### Screenshots
+- a Cordova based Mobile App for Chinese Radio Seattle
+### Screenshot
 ![](screenshots/screen.jpeg)
 
 ### How to build 
