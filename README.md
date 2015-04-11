@@ -1,7 +1,10 @@
 # crs
-Cordova based Mobile App for Chinese Radio Seattle
-### Screenshots
-![](screenshots/screen.png)
+
+a Cordova based mobile app for Chinese Radio Seattle
+
+### Screenshot
+
+![](screenshots/screen.jpeg)
 
 ### How to build 
 ```
@@ -20,7 +23,7 @@ ripple emulate -port 1234
 
 ```
 >cd platforms\android
->keytool -genkey -v -keystore c:\users\andrew\.keystore -alias andrxu -keyalg RSA -keysize 2048 -validity 10000
+>keytool -genkey -v -keystore c:\andrew\.keystore -alias andrxu -keyalg RSA -keysize 2048 -validity 10000
 >jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore c:\users\andrew\.keystore in.apk andrxu
 >zipalign -v 4 in.apk out.apk
 ```
