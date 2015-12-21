@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.Mobi2Cloud.ChineseRadioSeattle" version="1.5.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.Mobi2Cloud.ChineseRadioSeattle" version="1.6.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Chinese Radio Seattle</name>
     <description>
         This is a third party app designed for listening Chinese Radio Seattle. 这是一个用于收听西雅图中文电台广播的移动应用。 

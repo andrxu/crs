@@ -24,7 +24,7 @@ $counter = 0;
 if('' == $_GET['topic']) {
     $m1 = new Media();
     $m1->id = $counter;
-    $m1->title = "实时播放（中文: 美西时间每晚9-12点, 周五晚8-12点)";
+    $m1->title = "实时播放（中文: 美西时间每晚9-12点, 周五到周日晚8-12点)";
     $m1->url= "http://edgev1.den.echo.liquidcompass.net/KKNWAMMP3";
     array_push($medias, $m1);
     $counter ++;
@@ -43,13 +43,13 @@ foreach ($html->find('a') as $links) {
             }
         }
         if (strlen(trim($links->innertext)) > 1) {
-            $detail = $links->parent()->innertext;
+            $detail = $links->parent()->innertext;  //<p><a>link</a>detail</p>
             $b = strrpos($detail, "</a>");
             if ($b > 0) {
                 $detail = substr($detail, $b + 4);
             }
-            else{
-                $detail = null;
+            else {
+                $detail = '';
             }
             
             //find the image associated with for the audio file
